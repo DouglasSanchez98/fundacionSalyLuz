@@ -19,15 +19,13 @@ const AboutRamos = () => {
   return (
     <div
       name="quehacemos"
-      className="w-full h-screen  bg-cover bg-center relative "
-      style={{
-        backgroundImage: `url(${fondo})`,
-      }}>
+      className="w-full h-screen  bg-cover bg-center relative bg-white"
+      >
         
 
-       <div className="max-w-screen-lg px-4 mx-auto flex flex-col md:flex-row items-center justify-center w-full h-full gap-8 pt-32 md:pt-20 ">
+       <div className="max-w-screen-lg px-4 mx-auto flex flex-col md:flex-row items-center justify-center w-full h-full gap-8">
         {/* TEXTO */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 ">
           <p className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl font-bold text-orange-one">
             Queremos ser de bendición, esperanza y luz en comunidades marginadas. 
           </p>
