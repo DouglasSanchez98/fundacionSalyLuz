@@ -1,8 +1,8 @@
 import React,{ useEffect, useState } from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import niño from '../assets/niño.png'
-import niño2 from '../assets/niño2.png'
-import fondo from '../assets/fondoQuienesSomos.JPG'
+import niño from '../assets/logofundacion1.png'
+import niño2 from '../assets/logoblanco.png'
+import fondo from '../assets/fondo1.png'
 // Para usar si necesito degradar colores className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white "
 const AboutRamos = () => {
   const [mostrarPrimeraImagen, setMostrarPrimeraImagen] = useState(true)
@@ -25,18 +25,19 @@ const AboutRamos = () => {
       }}>
         
 
-       <div className="max-w-screen-lg px-4 mx-auto flex flex-col md:flex-row items-center justify-center w-full h-full gap-8 pt-10 ">
+       <div className="max-w-screen-lg px-4 mx-auto flex flex-col md:flex-row items-center justify-center w-full h-full gap-8 pt-32 md:pt-20 ">
         {/* TEXTO */}
         <div className="w-full md:w-1/2">
-          <p className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-orange-one">
-            Creemos en los niños. Invertimos en su presente para transformar su futuro.
+          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl font-bold text-orange-one">
+            Queremos ser de bendición, esperanza y luz en comunidades marginadas. 
           </p>
 
-          <p className="text-1xl sm:text-2xl mt-6 text-green-one">
-            <strong>Misión:</strong> Brindar apoyo integral a niños y adolescentes en situación de vulnerabilidad, promoviendo su desarrollo físico, emocional y educativo.
+          <p className="text-1xl sm:text-xl mt-6 text-green-one">
+            <strong>Misión:</strong>  Brindar apoyo integral a comunidades en situación de vulnerabilidad, promoviendo el desarrollo espiritual, educativo y social, reflejando el amor de Dios de manera práctica y transformadora.
+
           </p>
-          <p className="text-1xl sm:text-2xl mt-6 text-green-one">
-            <strong>Visión:</strong> Construir un entorno donde todos los niños tengan oportunidades para un desarrollo digno y pleno.
+          <p className="text-1xl sm:text-xl mt-6 text-green-one">
+            <strong>Visión:</strong> Ser una fundación referente en transformación social cristocéntrica, generando cambios sostenibles en comunidades, familias e individuos a través del servicio, la fe y el compromiso.
           </p>
         </div>
 

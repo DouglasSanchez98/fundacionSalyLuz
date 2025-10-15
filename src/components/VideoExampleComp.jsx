@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Video from '../assets/videoPropaganda2.mp4';
+import Logo from '../assets/logofundacion1.png'; // 🟢 Asegúrate de tener el logo aquí
 
 const VideoExampleComp = () => {
   const videoRef = useRef(null);
@@ -24,13 +25,20 @@ const VideoExampleComp = () => {
         Tu navegador no admite la reproducción de videos.
       </video>
 
-      {/* Texto centrado */}
+      {/* Contenido centrado */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center text-white">
+        {/* 🟡 Logo sobre el título */}
+        <img
+          src={Logo}
+          alt="Logo Fundación Sal y Luz"
+          className="w-36 sm:w-36 mb-4 drop-shadow-lg"
+        />
+
         <h1 className="text-3xl sm:text-5xl font-bold drop-shadow-lg">
-          Fundacion Danielito
+          Fundación Sal y Luz
         </h1>
         <p className="mt-4 text-lg sm:text-2xl drop-shadow">
-          Trabajamos con amor y entrega junto a familias, cuidadores y comunidades, transformando vidas con principios cristianos
+          Sé la luz que cambia la historia de un niño.
         </p>
       </div>
     </div>

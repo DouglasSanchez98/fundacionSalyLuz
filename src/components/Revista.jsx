@@ -24,7 +24,7 @@ export default function Revista() {
           
           {/* Botón de descarga */}
           <a
-            href= 'https://drive.google.com/file/d/14bl2H7Jdzu7rUWN_Cp7B3y2VPrEAh8gq/view?usp=sharing'
+            href= 'https://drive.google.com/file/d/1xYkQdPRtO19CsyFeOS7pin8iILOVpzEb/view?usp=sharing'
             target="_blank"
             rel="noopener noreferrer"
             //download

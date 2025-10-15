@@ -46,7 +46,7 @@ const NavBarRamos = () => {
 
                 {/* Botón a Página Donaciones */}
                 <li>
-                    <div className='border border-orange-one border-solid rounded p-1'>
+                    <div className='border border-orange-one border-solid rounded px-4'>
                         
                         <Link 
                         to={'/donacionespage'}>
@@ -57,7 +57,7 @@ const NavBarRamos = () => {
                 </li>
                 {/* Botón de WhatsApp */}
                 <li>
-                    <div className='border border-orange-one border-solid rounded p-1'>
+                    <div className='border border-orange-one border-solid rounded px-4'>
                         <ReactWhatsapp
                             number="+59177027843"
                             message="Saludos, necesito Información sobre la Fundación Danielito"

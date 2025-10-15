@@ -3,7 +3,7 @@ import Cdi from '../assets/1.png';
 import CdiUribicha from '../assets/2.png';
 import ProyectoBendicion from '../assets/3.png';
 import FamiliasSaludables from '../assets/4.png';
-import fondoProgramas from '../assets/fondoProgramas.jpg';
+import fondoProgramas from '../assets/fondo4.png';
 
 const ServiciosRamos = () => {
   const portfolios = [
@@ -47,7 +47,7 @@ const ServiciosRamos = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 flex flex-col justify-center items-center">
-          <p className="text-5xl text-white font-montserrat inline justify-center border-b-4 border-orange-one">
+          <p className="text-5xl text-green-one font-montserrat inline justify-center border-b-4 border-orange-one">
             Programas
           </p>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import PatrocinadorUno from '../assets/patUnoaUno.png'
 import PatrocinadorProyecto from '../assets/patProyectos.png'
 import Donante from '../assets/donanteGeneral.png'
-import fondoDonaciones from '../assets/fondoDonaciones.JPG'
+import fondoDonaciones from '../assets/fondo5.png'
 
 const Trabajos = () => {
     const portfolios = [
@@ -45,7 +45,7 @@ const Trabajos = () => {
                     <p className="py-6">Conoce las maneras en que puedes apoyar</p>
                 </div>
 
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 px-12 sm:px-0">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 px-12 sm:px-0 bg-white">
                     {
                         portfolios.map(({ id, src, tipo, cliente, href,area }) => (
                             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">

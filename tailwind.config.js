@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'green-one': '#1d4a4b',
+        'green-one': '#0f425a',
         'green-two': '#31706e',
-        'orange-one': '#ea8028',
+        'orange-one': '#cf9f46',
+        'white-ice': '#faf5ee',
         // agrega aquí los colores que necesites
       },
     },
