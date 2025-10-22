@@ -14,6 +14,7 @@ import ProyectoBendicion from "./components/ProyectoBendicion";
 import FamiliasSaludables from "./components/FamiliasSaludables";
 import DonacionesPage from "./components/DonacionesPage";
 import Revista from "./components/Revista";
+import PieDePagina from "./components/PieDePagina";
 
 // Página principal
 function HomePage() {
@@ -27,6 +28,7 @@ function HomePage() {
       <EmpresasRamos />
       <Revista/>
       <ContactRamos />
+      <PieDePagina/>
       <SocialLinksRamos />
     </div>
   );
