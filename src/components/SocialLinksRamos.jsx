@@ -15,7 +15,7 @@ const SocialLinksRamos = () => {
             ),
             href: 'https://www.linkedin.com/in/douglas-sanchez-pardo-5688a0145/',
             style: 'rounded-tr-md'
-        },*/
+        },
         {
             id: 1,
             child: (
@@ -44,7 +44,7 @@ const SocialLinksRamos = () => {
             href:'mailto:jrdouglas98@gmail.com',
             style: 'rounded-br-md',
             
-        }
+        }*/
     ]
   return (
     <div className='hidden lg:flex flex-col top-[35%] -left-4 fixed bg-green-one rounded-md z-40'>

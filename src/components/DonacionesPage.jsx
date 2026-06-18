@@ -122,7 +122,7 @@ const DonacionesPage = () => {
                 {/* Imagen QR */}
                 <div className="flex justify-center">
                   <img
-                    src={qrBolivia}
+                    src={""}
                     alt="QR Bolivia"
                     className="w-48 h-48 object-contain"
                   />
@@ -135,9 +135,9 @@ const DonacionesPage = () => {
                   <p className="text-gray-700 mb-2">
                     Banco: Banco Nacional de Bolivia
                   </p>
-                  <p className="text-gray-700 mb-2">Titular: FUNDACION DANIELITO</p>
+                  <p className="text-gray-700 mb-2">Titular: </p>
                   <p className="text-gray-700 font-semibold">
-                    Nro de Cuenta: 2000265082
+                    Nro de Cuenta: 
                   </p>
                   <p className="text-gray-700">Moneda: Bolivianos</p>
                 </div>
