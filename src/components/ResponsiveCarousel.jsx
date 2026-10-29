@@ -7,8 +7,8 @@ import { Autoplay, Pagination, Scrollbar } from 'swiper/modules'
 
 
 
-import carrusel1 from '../assets/carrusel1.jpeg'
-import carrusel2 from '../assets/carrusel2.jpeg'
+import carrusel1 from '../assets/carrousel1.png'
+import carrusel2 from '../assets/carrousel2.png'
 import carrusel3 from '../assets/carrusel3.jpeg'
 
 // Cada "anchor" debe coincidir con el atributo `name` en la sección de destino
